@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.title > h1{
+    font-family: 'Kaushan Script', cursive;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    font-family: 'Permanent Marker', cursive;
+}
+.inp-head{
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 25px;
+    color:#afce91;
+}
+.form{
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+SVG{
+    color:#afce91 ;
+    float: left;
+}
+
+input{
+    background: transparent;
+    float: left;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid #afce91;
+    width: 45vw;
+    font-size: 25px;
+    color: #afce91;
+}
+
+#all-items{
+    color: #afce91;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 45vh;
+    margin: 20px 0px 20px 39px;
+}
+
+#all-items > h1:hover{
+    cursor: pointer;
+}
+
+.note{
+    color: #afce91;
+}
